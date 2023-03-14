@@ -1,0 +1,386 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+header {
+
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    left: 150px;
+    top: 0px;
+}
+
+#main1 a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    color: #10243E;
+}
+
+#main {
+
+    width: 45%;
+    display: flex;
+    list-style: none;
+
+}
+
+#main a {
+
+    font-family: 'Open Sans';
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #183B56;
+    text-decoration: none;
+}
+
+#main1 sup {
+    color: #1576D8;
+}
+
+.flex-items {
+    color: #1576D8;
+    border: 2px solid #1565D8;
+    border-radius: 5px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 24.57px;
+    padding-right: 24.57px;
+    font-weight: bold;
+}
+
+#hero {
+    width: 1290px;
+    height: 666px;
+
+
+}
+
+#hero img {
+    width: 641px;
+    height: 666px;
+}
+
+#right1 {
+    float: right;
+    width: 555px;
+    height: 504px;
+    margin-top: 83px;
+
+
+}
+
+#text1 {
+    height: 136px;
+
+
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+
+    letter-spacing: 0.2px;
+    color: #183B56;
+
+
+}
+
+#text2 {
+    font-size: 20px;
+    padding-top: 20px;
+    color: #183B56;
+}
+
+#text3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.item p {
+    margin: 10px;
+}
+
+.item {
+    width: 50%;
+    display: flex;
+
+}
+
+#text3 img {
+    padding-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#get {
+    background-color: #1576D8;
+    color: aliceblue;
+    border-radius: 5px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 24.57px;
+    padding-right: 24.57px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.itm1 {
+    font-weight: bold;
+}
+
+.itm2 {
+    color: rgb(120, 120, 120)
+}
+
+#services {
+    margin-bottom: 100px;
+}
+
+#our {
+    color: #2bba81;
+    margin-top: 70px;
+    text-align: center;
+}
+
+#insurance {
+    text-align: center;
+    font-weight: bold;
+    color: #183B56;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#work {
+    margin: auto;
+    width: 45%;
+    text-align: center;
+    color: rgb(120, 120, 120);
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+#service1 img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#service1 {
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 20px;
+    width: fit-content;
+}
+
+.service2 {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.tab {
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    width: 33.33%;
+    margin-right: 15px;
+    padding: 25px;
+    padding-bottom: 40px;
+}
+
+#service3 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#service3 img {
+    border: 1px solid gainsboro;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.tab p:nth-child(2) {
+    font-size: 20px;
+    padding-left: 25px;
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+.tab p:nth-child(3) {
+    font-size: 20px;
+    color: rgb(120, 120, 120);
+    line-height: 30px;
+    margin: 10px 25px 20px 25px;
+
+}
+
+.tab a {
+    text-decoration: none;
+    padding-left: 25px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #1576D8
+}
+
+#platform {
+    height: 540px;
+
+}
+
+#baseimg {
+    position: absolute;
+    z-index: 1;
+    max-width: 1350px;
+
+}
+
+#base {
+    position: absolute;
+    z-index: 2;
+    margin-top: 40px;
+    margin-left: 58px;
+}
+
+#base1 {
+    position: relative;
+    left: 200px;
+    top: 120px;
+    z-index: 3;
+}
+
+.para {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    top: 150px;
+    font-size: 25px;
+    /* left: 25px; */
+    line-height: 40px;
+    color: rgb(90, 90, 90);
+}
+
+.para1 {
+margin-left: 180px;
+display: flex;align-items: center;
+font-size: 20px;
+color:black;
+}
+.p1{
+    margin: 19px;
+}
+.p2
+{
+    margin:3px;
+}
+.p3
+{
+    color: rgb(120, 120, 120);
+}
+
+.benefit
+{
+    margin-top:150px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.your
+{
+    color: #2bba81;
+    
+}
+
+.text
+{
+    margin-top:20px;
+    font-size: 40px;
+    font-weight:600;
+}
+.card
+{
+   padding-bottom: 50px;
+    width: 30%;
+
+}
+.card img{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin-bottom:20px;
+    width:50px;
+    height:50px;
+}
+.card p:nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card p:nth-child(3) {
+    font-size: 20px;
+    color: rgb(120, 120, 120);
+    line-height: 30px;
+    margin-top:10px;
+
+}
+
+.line
+{
+    border:1px solid gainsboro;
+    margin-bottom: 90px;
+    margin-top:90px;
+}
+
+.tipimg1{
+    display:flex;
+    align-items: flex-end;
+    float:left;
+    background-image: url('../image/tips/Image\(2\).png');
+    margin-top:40px;
+    width:550px;
+    height:600px;
+}
+.tipimg2{
+    display:flex;
+    align-items: flex-end;
+    float:right;
+    background-image: url('../image/tips/Base\(1\).png');
+    margin-top:40px;
+    width:550px;
+    height:600px;
+}
+
+.tiptext
+{
+    font-weight: 700;
+    font-size:40px;
+    margin:70px 40px;
+    color:white;
+
+}
